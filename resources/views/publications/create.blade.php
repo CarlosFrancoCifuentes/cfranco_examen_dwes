@@ -12,11 +12,19 @@
         </label><br>
         <label>
             Extracto:
-            <input type="tel" name="extracto">
+            <input type="text" name="extracto">
         </label><br>
         <label>
             Contenido:
-            <input type="email" name="contenido">
+            <input type="text" name="contenido">
+        </label><br>
+        <label>
+            Caducable:
+            <input type="checkbox" name="caducable">
+        </label><br>
+        <label>
+            Comentable:
+            <input type="checkbox" name="comentable">
         </label><br>
         <button type="submit">Registrar publicacion</button>
     </form>

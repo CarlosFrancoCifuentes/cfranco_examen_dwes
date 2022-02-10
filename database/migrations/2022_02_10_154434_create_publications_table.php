@@ -8,7 +8,7 @@ class CreatePublicationsTable extends Migration
 {
     public function up()
     {
-        Schema::create('publication', function (Blueprint $column) {
+        Schema::create('publications', function (Blueprint $column) {
             $column->id(); //Integer Unsigned Increment
             $column->string('titulo')->unique();
             $column->text('extracto');

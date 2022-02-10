@@ -11,12 +11,8 @@
             <li>{{$publication->extracto}}</li>
             <li>{{$publication->contenido}}</li>
             <li>
-                Más información: <a href="{{route("publications.publication", $publication->id)}}">{{$publication->name}}</a>
+                Más información: <a href="{{route("publications.publication", $publication->id)}}">{{$publication->titulo}}</a>
             </li>
         </ul>
     @endforeach
-
-    {{-- Paginación --}}
-    {{$publications->links()}}
-
 @endsection
